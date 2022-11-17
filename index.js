@@ -25,18 +25,19 @@ async function findAllFunctionsAndReportJSDocStatus() {
 
     const fileName = __dirname + '/fileUnderStudy.js'
     const jsContentsString = await getFileContentsAsString(fileName)
-    const fullASTOfJS = jsdocParse.AstBuilder.build(jsContentsString, fileName)
+    const ast = jsdocParse.AstBuilder.build(jsContentsString, fileName)
 
     //uncomment to see the whole AST
-    // console.dir(fullASTOfJS, { depth: null })
-    console.log(JSON.stringify(fullASTOfJS, null, 2));
-    const body = fullASTOfJS.program.body;
+    // console.log(JSON.stringify(fullASTOfJS, null, 2));
+
+    const body = ast.program.body;
+    console.assert(body, "ast.program.body")
+
     //We'll have to be more flexible to find fn expressions, too.
     const functionDeclarations = body.filter(node => node.type === "FunctionDeclaration")
 
     const output = functionDeclarations.map(processFunctionDeclaration);
-    // console.dir(output, { depth: null });
-
+    console.log(JSON.stringify(output, null, 2));
 
     /** Given a function declaration AST subtree, return some info about its name and whether it has JSDoc.
      *
