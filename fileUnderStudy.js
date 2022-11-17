@@ -10,7 +10,11 @@ function uncoolFunction() {
 * @param {string} hatColour - Colour of hat to give the shark.
 * @returns {Target| undefined} - The nearest target or undefined if none was found.
 */
-function coolFunction() {
+function sicSharkOnSuperSpy() {
     return 42;
 }
 
+
+function functionWithNoComments() {
+    return;
+}

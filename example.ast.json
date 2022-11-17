@@ -1,0 +1,436 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 448,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 21,
+      "column": 0
+    }
+  },
+  "range": [
+    0,
+    448
+  ],
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 448,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 21,
+        "column": 0
+      }
+    },
+    "range": [
+      0,
+      448
+    ],
+    "sourceType": "script",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "FunctionDeclaration",
+        "start": 46,
+        "end": 90,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 1
+          }
+        },
+        "range": [
+          46,
+          90
+        ],
+        "id": {
+          "type": "Identifier",
+          "start": 55,
+          "end": 69,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 9
+            },
+            "end": {
+              "line": 2,
+              "column": 23
+            },
+            "identifierName": "uncoolFunction"
+          },
+          "range": [
+            55,
+            69
+          ],
+          "name": "uncoolFunction"
+        },
+        "generator": false,
+        "async": false,
+        "expression": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 72,
+          "end": 90,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 1
+            }
+          },
+          "range": [
+            72,
+            90
+          ],
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 78,
+              "end": 88,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 14
+                }
+              },
+              "range": [
+                78,
+                88
+              ],
+              "argument": {
+                "type": "Literal",
+                "start": 85,
+                "end": 87,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 13
+                  }
+                },
+                "range": [
+                  85,
+                  87
+                ],
+                "value": 42,
+                "raw": "42"
+              }
+            }
+          ]
+        },
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n* Charges a laser-shark to max-energy and releases it in the direction of the nearest super-spy.\n* \n* @param {string} hatColour - Colour of hat to give the shark.\n* @returns {Target| undefined} - The nearest target or undefined if none was found.\n",
+            "start": 93,
+            "end": 346,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0,
+                "index": 93
+              },
+              "end": {
+                "line": 12,
+                "column": 2,
+                "index": 346
+              }
+            }
+          }
+        ],
+        "leadingComments": [
+          {
+            "type": "CommentLine",
+            "value": "Document this function using jsdoc, please.",
+            "start": 0,
+            "end": 45,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0,
+                "index": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 45,
+                "index": 45
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FunctionDeclaration",
+        "start": 347,
+        "end": 395,
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        },
+        "range": [
+          347,
+          395
+        ],
+        "id": {
+          "type": "Identifier",
+          "start": 356,
+          "end": 374,
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 9
+            },
+            "end": {
+              "line": 13,
+              "column": 27
+            },
+            "identifierName": "sicSharkOnSuperSpy"
+          },
+          "range": [
+            356,
+            374
+          ],
+          "name": "sicSharkOnSuperSpy"
+        },
+        "generator": false,
+        "async": false,
+        "expression": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 377,
+          "end": 395,
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 30
+            },
+            "end": {
+              "line": 15,
+              "column": 1
+            }
+          },
+          "range": [
+            377,
+            395
+          ],
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 383,
+              "end": 393,
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 4
+                },
+                "end": {
+                  "line": 14,
+                  "column": 14
+                }
+              },
+              "range": [
+                383,
+                393
+              ],
+              "argument": {
+                "type": "Literal",
+                "start": 390,
+                "end": 392,
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 13
+                  }
+                },
+                "range": [
+                  390,
+                  392
+                ],
+                "value": 42,
+                "raw": "42"
+              }
+            }
+          ]
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n* Charges a laser-shark to max-energy and releases it in the direction of the nearest super-spy.\n* \n* @param {string} hatColour - Colour of hat to give the shark.\n* @returns {Target| undefined} - The nearest target or undefined if none was found.\n",
+            "start": 93,
+            "end": 346,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0,
+                "index": 93
+              },
+              "end": {
+                "line": 12,
+                "column": 2,
+                "index": 346
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FunctionDeclaration",
+        "start": 398,
+        "end": 447,
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 0
+          },
+          "end": {
+            "line": 20,
+            "column": 1
+          }
+        },
+        "range": [
+          398,
+          447
+        ],
+        "id": {
+          "type": "Identifier",
+          "start": 407,
+          "end": 429,
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 9
+            },
+            "end": {
+              "line": 18,
+              "column": 31
+            },
+            "identifierName": "functionWithNoComments"
+          },
+          "range": [
+            407,
+            429
+          ],
+          "name": "functionWithNoComments"
+        },
+        "generator": false,
+        "async": false,
+        "expression": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 432,
+          "end": 447,
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 34
+            },
+            "end": {
+              "line": 20,
+              "column": 1
+            }
+          },
+          "range": [
+            432,
+            447
+          ],
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 438,
+              "end": 445,
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 4
+                },
+                "end": {
+                  "line": 19,
+                  "column": 11
+                }
+              },
+              "range": [
+                438,
+                445
+              ],
+              "argument": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "comments": [
+    {
+      "type": "CommentLine",
+      "value": "Document this function using jsdoc, please.",
+      "start": 0,
+      "end": 45,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0,
+          "index": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 45,
+          "index": 45
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n* Charges a laser-shark to max-energy and releases it in the direction of the nearest super-spy.\n* \n* @param {string} hatColour - Colour of hat to give the shark.\n* @returns {Target| undefined} - The nearest target or undefined if none was found.\n",
+      "start": 93,
+      "end": 346,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0,
+          "index": 93
+        },
+        "end": {
+          "line": 12,
+          "column": 2,
+          "index": 346
+        }
+      }
+    }
+  ]
+}
